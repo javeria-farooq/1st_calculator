@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: lightgreen;
+}
+
+.myContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#calculator{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+    width: 300px;
+    border-radius: 12px;
+    padding-top: 10x;
+    padding-bottom: 12px;
+    margin: 30px 0px;
+}
+
+.myBtn, .operator, .dltBtn{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    margin: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 5px rgb(56, 161, 202);
+
+}
+
+#inp{
+    width: 280px;
+    height: 60px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgb(56, 161, 202);
+}
+
+#inp:hover{
+    height: 80px;
+    width: 300px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+#heading{
+    margin: 30px 0px;
+}
+
+.myBtn:hover, .operator:hover, .dltBtn:hover{
+    background-color: lightcoral;
+    color: white;
+}
